@@ -5,45 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【01/18-01/22订阅】, server: jh-rus-01.zimuheikeji.tk, port: 443, type: vmess, uuid: fcc0d060-0806-47f0-eedb-9ef20bc757f2, alterId: 0, cipher: auto, tls: true}
-  - {name: 【公众号：子木黑科技】, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 【关注公众号稳定不失联】, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 【建议每天更新下订阅】, server: 125.wgong.xyz, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji, server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 2, server: 135.wgong.xyz, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 3, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 4, server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 5, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 6, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 7, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 8, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 9, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 10, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 11, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 12, server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 13, server: 103.wgong.xyz, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 14, server: 134.wgong.xyz, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 15, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 16, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 17, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 18, server: azhk.relay.qchwnd.moe, port: 10204, type: vmess, uuid: 476ddab3-29a2-4a32-8f0d-33cf6add3722, alterId: 0, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 19, server: 98.wgong.xyz, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 20, server: yooo1.xiaobaigou.cc, port: 56015, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo1.xiaobaigou.cc}
-  - {name: wxgzh:zimuheikeji 21, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 22, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: wxgzh:zimuheikeji 23, server: awsrb3.moonfree.top, port: 443, type: vmess, uuid: f10593f8-66b2-4902-a870-66e6f90bcf22, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: awsrb3.moonfree.top}}
-  - {name: wxgzh:zimuheikeji 24, server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe}
-  - {name: wxgzh:zimuheikeji 25, server: awsrb3.moonfree.top, port: 443, type: vmess, uuid: 5ddf89c2-f73a-4254-827c-8abce409d98f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: awsrb3.moonfree.top}}
+  - {name: 【02/03-02/07免费订阅】, server: jh-ru-01.zimu.cf, port: 443, type: vmess, uuid: 59b00b5d-0e63-44ba-eaab-61f76a6edf55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 【建议每天更新下订阅】, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 5f4321bb-3b6d-4bab-aba7-4e3814ee625f, udp: true}
+  - {name: 【公众号：子木黑科技】, server: 101.230.149.38, port: 32634, type: ss, cipher: aes-256-gcm, password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038, udp: true}
+  - {name: 【关注公众号稳定不失联】, server: qt9.shenseven.xyz, port: 443, type: trojan, password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9, sni: qt9.shenseven.xyz, skip-cert-verify: true, udp: true}
+  - {name: wxgzh:zimuheikeji, server: 183.232.56.161, port: 8014, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 2, server: 183.232.56.161, port: 1952, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 3, server: 183.232.56.161, port: 3001, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 4, server: 183.232.56.161, port: 1203, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 5, server: 183.232.56.161, port: 1951, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 6, server: 183.232.56.161, port: 8003, type: vmess, uuid: 7ff41058-b662-3352-9e7f-643ef2d78344, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: wxgzh:zimuheikeji 7, server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: wxgzh:zimuheikeji 8, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 5f4321bb-3b6d-4bab-aba7-4e3814ee625f, udp: true}
+  - {name: wxgzh:zimuheikeji 9, server: 69.64.248.199, port: 443, type: vmess, uuid: 7235b329-e205-4fcb-bcd6-81c19fbb9e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
+  - {name: wxgzh:zimuheikeji 10, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: wxgzh:zimuheikeji 11, server: in-vpnpool.freexiazai.ml, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: wxgzh:zimuheikeji 12, server: 192.46.212.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: wxgzh:zimuheikeji 13, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: wxgzh:zimuheikeji 14, server: 192.46.209.17, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: wxgzh:zimuheikeji 15, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: wxgzh:zimuheikeji 16, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: wxgzh:zimuheikeji 17, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: wxgzh:zimuheikeji 18, server: 129.154.55.137, port: 54321, type: trojan, password: 8e075042-dd96-40f5-9bc9-dbe0478fdfad, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 【01/18-01/22订阅】
+      - 【02/03-02/07免费订阅】
+      - 【建议每天更新下订阅】
       - 【公众号：子木黑科技】
       - 【关注公众号稳定不失联】
-      - 【建议每天更新下订阅】
       - wxgzh:zimuheikeji
       - wxgzh:zimuheikeji 2
       - wxgzh:zimuheikeji 3
@@ -62,23 +55,15 @@ proxy-groups:
       - wxgzh:zimuheikeji 16
       - wxgzh:zimuheikeji 17
       - wxgzh:zimuheikeji 18
-      - wxgzh:zimuheikeji 19
-      - wxgzh:zimuheikeji 20
-      - wxgzh:zimuheikeji 21
-      - wxgzh:zimuheikeji 22
-      - wxgzh:zimuheikeji 23
-      - wxgzh:zimuheikeji 24
-      - wxgzh:zimuheikeji 25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - 【01/18-01/22订阅】
+      - 【02/03-02/07免费订阅】
+      - 【建议每天更新下订阅】
       - 【公众号：子木黑科技】
       - 【关注公众号稳定不失联】
-      - 【建议每天更新下订阅】
       - wxgzh:zimuheikeji
       - wxgzh:zimuheikeji 2
       - wxgzh:zimuheikeji 3
@@ -97,13 +82,6 @@ proxy-groups:
       - wxgzh:zimuheikeji 16
       - wxgzh:zimuheikeji 17
       - wxgzh:zimuheikeji 18
-      - wxgzh:zimuheikeji 19
-      - wxgzh:zimuheikeji 20
-      - wxgzh:zimuheikeji 21
-      - wxgzh:zimuheikeji 22
-      - wxgzh:zimuheikeji 23
-      - wxgzh:zimuheikeji 24
-      - wxgzh:zimuheikeji 25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,10 +99,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【01/18-01/22订阅】
+      - 【02/03-02/07免费订阅】
+      - 【建议每天更新下订阅】
       - 【公众号：子木黑科技】
       - 【关注公众号稳定不失联】
-      - 【建议每天更新下订阅】
       - wxgzh:zimuheikeji
       - wxgzh:zimuheikeji 2
       - wxgzh:zimuheikeji 3
@@ -143,13 +121,6 @@ proxy-groups:
       - wxgzh:zimuheikeji 16
       - wxgzh:zimuheikeji 17
       - wxgzh:zimuheikeji 18
-      - wxgzh:zimuheikeji 19
-      - wxgzh:zimuheikeji 20
-      - wxgzh:zimuheikeji 21
-      - wxgzh:zimuheikeji 22
-      - wxgzh:zimuheikeji 23
-      - wxgzh:zimuheikeji 24
-      - wxgzh:zimuheikeji 25
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -917,12 +888,10 @@ rules:
  - DOMAIN-SUFFIX,activate-sea.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,activate.adobe.com,🛑 全球拦截
- - DOMAIN-SUFFIX,activate.wip3.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adobe-dns.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ereg.adobe.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,geo2.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hl2rcv.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🛑 全球拦截
@@ -977,7 +946,6 @@ rules:
  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banlv.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bar.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bdimg.share.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bdplus.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,c.baidu.cn,🛑 全球拦截
@@ -995,7 +963,6 @@ rules:
  - DOMAIN-SUFFIX,click.hm.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,click.qianqian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cm.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cm.pos.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cpro.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cpro.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cpro.baidustatic.com,🛑 全球拦截
@@ -1098,13 +1065,10 @@ rules:
  - DOMAIN-SUFFIX,rp.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rplog.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,s.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,s.cpro.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sclick.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sestat.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shadu.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,share.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,snippet.pos.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sobar.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sobartop.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,spcode.baidu.cn,🛑 全球拦截
@@ -1121,7 +1085,6 @@ rules:
  - DOMAIN-SUFFIX,tuijian.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tuisong.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tuisong.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ucstat.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ucstat.baidu.com,🛑 全球拦截
@@ -1146,7 +1109,6 @@ rules:
  - DOMAIN-SUFFIX,wisepush.video.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wm.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wm.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wn.pos.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,znsv.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,znsv.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zz.bdstatic.com,🛑 全球拦截
@@ -1197,7 +1159,11 @@ rules:
  - DOMAIN-SUFFIX,ic.snssdk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,log.snssdk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nativeapp.toutiao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pangolin.snssdk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,partner.toutiao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pglstatp-toutiao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sm.toutiao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.dangdang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,click.dangdang.com,🛑 全球拦截
@@ -1720,7 +1686,6 @@ rules:
  - DOMAIN-SUFFIX,couchcoaster.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🛑 全球拦截
- - DOMAIN-SUFFIX,m-78.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,nichibenren.or.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,nicorette.co.kr,🛑 全球拦截
  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🛑 全球拦截
@@ -1731,8 +1696,6 @@ rules:
  - DOMAIN-SUFFIX,ads.wasu.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,afp.wasu.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,c.algovid.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cc.xtgreat.com,🛑 全球拦截
- - DOMAIN-SUFFIX,d.dsp.imageter.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.jtertp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🛑 全球拦截
@@ -1914,8 +1877,10 @@ rules:
  - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 节点选择
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 节点选择
  - DOMAIN,ktpx.amazon.com,🚀 节点选择
+ - DOMAIN-SUFFIX,aboutamazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-delivery.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amazon.jobs,🚀 节点选择
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
@@ -2136,8 +2101,10 @@ rules:
  - DOMAIN-SUFFIX,tiktokcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,tiktokv.com,🚀 节点选择
  - DOMAIN-KEYWORD,ttvnw,🚀 节点选择
+ - DOMAIN-SUFFIX,ext-twitch.tv,🚀 节点选择
  - DOMAIN-SUFFIX,jtvnw.net,🚀 节点选择
  - DOMAIN-SUFFIX,ttvnw.net,🚀 节点选择
+ - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
  - DOMAIN-SUFFIX,twitchcdn.net,🚀 节点选择
  - DOMAIN,api.viu.now.com,🚀 节点选择
@@ -2160,8 +2127,14 @@ rules:
  - DOMAIN,yt3.ggpht.com,🚀 节点选择
  - DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
+ - DOMAIN-SUFFIX,withyoutube.com,🚀 节点选择
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+ - DOMAIN-SUFFIX,youtubeeducation.com,🚀 节点选择
+ - DOMAIN-SUFFIX,youtubegaming.com,🚀 节点选择
+ - DOMAIN-SUFFIX,youtubekids.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yt.be,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
  - DOMAIN,music.youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
@@ -2703,6 +2676,7 @@ rules:
  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
@@ -3102,9 +3076,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
- - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
- - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
